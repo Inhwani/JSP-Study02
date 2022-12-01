@@ -121,4 +121,12 @@ JSP의 주된 목적은 웹 브라우저에 띄울 HTML 파일을 생성하는 �
 
 page 지시어는 JSP 페이지에 대한 정보를 설정 ( 속성, 내용, 기본값)
 
-- info : 페이지에 대한 설명 입력 : 
+- info : 페이지에 대한 설명 입력 : 없음
+- language : 스크립팅 언어를 지정 : java
+- contentType : 페이지에서 생성할 MIME 타입을 지정 : 없음
+- pageEncoding : charset과 같이 인코딩을 지정 : ISO-8859-1
+- import : 페이지에서 사용할 자바 패키지와 클래스 지정 : 없음
+- session : 세션 사용 여부를 지정합니다 : true
+- buffer : 출력 버퍼의 크기를 지정 : 8KN
+- autoFlush : 출력 버퍼가 모두 채워졌을 때 자동으로 비울지 결정 : true
+- trimDirective : 지시어 선언으로 인한 공백 제거 여부 : false
